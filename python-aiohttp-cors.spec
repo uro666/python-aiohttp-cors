@@ -1,6 +1,7 @@
 %define module aiohttp-cors
 %define oname aiohttp_cors
-%bcond_without test
+# disable test for abf.
+%bcond_with test
 
 Name:		python-aiohttp-cors
 Version:	0.8.1
